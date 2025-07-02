@@ -64,7 +64,7 @@ function App() {
             />
             <LinkButton
               text="Website Portofolio"
-              url="https://yourwebsite.com"
+              url="https://afwansutdrajat.vercel.app"
               icon={<Globe className="w-5 h-5" />}
             />
           </div>
