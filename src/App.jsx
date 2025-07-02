@@ -6,7 +6,8 @@ import {
   Linkedin,
   Youtube,
   Github,
-  Globe
+  Globe,
+  Briefcase
 } from 'lucide-react';
 
 function App() {
@@ -42,14 +43,19 @@ function App() {
 
           <div className="mt-6 space-y-4">
             <LinkButton
-              text="LinkedIn"
-              url="https://linkedin.com/in/afwan-sutdrajat-1bb70023b"
-              icon={<Linkedin className="w-5 h-5" />}
+              text="Jasa Pembuatan Aplikasi Android"
+              url="https://fastwork.id/user/waans14"
+              icon={<Briefcase className="w-5 h-5" />}
             />
             <LinkButton
               text="YouTube"
               url="https://youtube.com/@millenialzdev"
               icon={<Youtube className="w-5 h-5" />}
+            />
+            <LinkButton
+              text="LinkedIn"
+              url="https://linkedin.com/in/afwan-sutdrajat-1bb70023b"
+              icon={<Linkedin className="w-5 h-5" />}
             />
             <LinkButton
               text="GitHub"
