@@ -9,6 +9,7 @@ import {
   Globe,
   Briefcase
 } from 'lucide-react';
+import { TypeAnimation } from 'react-type-animation';
 
 function App() {
   return (
@@ -36,10 +37,32 @@ function App() {
             alt="Profile"
             className="w-32 h-32 rounded-full mx-auto border-4 border-white/30 shadow-md"
           />
-          <h1 className="text-3xl font-bold mt-4">Afwan Sutdrajat</h1>
-          <p className="mt-2 text-sm text-white/80">
-            Android & Web Developer | Content Creator
-          </p>
+
+          <TypeAnimation
+            sequence={['Afwan Sutdrajat']}
+            speed={50}
+            cursor={false}
+            className="text-3xl font-bold mt-4"
+            repeat={0}
+            wrapper="h1"
+          />
+
+          <TypeAnimation
+            sequence={[
+              'Android & Web Developer',
+              2000,
+              'Content Creator',
+              2000,
+              'Freelancer',
+              2000,
+              '',
+              500
+            ]}
+            wrapper="p"
+            speed={40}
+            className="mt-2 text-sm text-white/80"
+            repeat={Infinity}
+          />
 
           <div className="mt-6 space-y-4">
             <LinkButton
