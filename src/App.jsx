@@ -66,7 +66,7 @@ function App() {
 
           <div className="mt-6 space-y-4">
             <LinkButton
-              text="Freelance (Fastwork.id)"
+              text="Fastwork.id"
               url="https://fastwork.id/user/waans14"
               icon={<Briefcase className="w-5 h-5" />}
             />
